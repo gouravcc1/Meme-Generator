@@ -11,7 +11,7 @@ export default function Memeimg(){
             .then(data => SetAllmemesdata(data))
     }, []);
     function changememe(){
-        let x = Math.floor((Math.random() * 100) + 1);
+        let x = Math.floor((Math.random() * 99) + 1);
         SetMeme( old=> ({
             ...old,
             imgscr:allmemes.data.memes[x].url
