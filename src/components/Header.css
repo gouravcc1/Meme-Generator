@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  background: rgb(75, 241, 239);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family:cursive;
+}

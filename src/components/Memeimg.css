@@ -1,0 +1,32 @@
+.mybutton{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(206, 156, 237);
+    border-radius: 10px;
+}
+.mybutton:hover{
+    background-color: rgb(125, 255, 128);
+
+}
+.imgbutton{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.memeimge{
+    display: flex;
+    justify-content: center;
+}
+.mymemeimg{
+    height: 400px;
+    max-width: 800px;
+}
+.meme-text{
+    color: rgb(243, 235, 146);
+    position: absolute;
+    padding-top:20px;
+}
+.bottom{
+   bottom:70px
+}

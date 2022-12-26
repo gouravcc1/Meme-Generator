@@ -1,0 +1,13 @@
+.mydiv{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+.textinput
+{
+    background-color: rgb(212, 212, 213);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size:20pt;
+}
