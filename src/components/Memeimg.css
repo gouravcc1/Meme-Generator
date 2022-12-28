@@ -16,17 +16,38 @@
 }
 .memeimge{
     display: flex;
+    position: relative;
     justify-content: center;
 }
 .mymemeimg{
-    height: 400px;
-    max-width: 800px;
+    width: 80%;
 }
-.meme-text{
-    color: rgb(243, 235, 146);
+.meme--text {
     position: absolute;
-    padding-top:20px;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
 }
+
 .bottom{
-   top:600px
+    bottom: 0px;
 }
+

@@ -13,7 +13,7 @@ export default function Text(props){
            onChange={props.toggle}                    
              />
            <input 
-           type="text"  
+           type="text"
            className='textinput'
            name = 'bottomtext'
            value={props.bottomtext}

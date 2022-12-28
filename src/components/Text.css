@@ -9,5 +9,7 @@
     background-color: rgb(212, 212, 213);
     border: 2px solid black;
     border-radius: 10px;
-    font-size:20pt;
+    width: 50%;
+    margin: 5px;
+    padding: 3px;
 }

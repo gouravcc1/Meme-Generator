@@ -12,7 +12,7 @@ export default function Memeimg(){
     }, []);
     function changememe(){
         let x = Math.floor((Math.random() * 99) + 1);
-        SetMeme( old=> ({
+        SetMeme(old=>({
             ...old,
             imgscr:allmemes.data.memes[x].url
         }
@@ -40,13 +40,13 @@ export default function Memeimg(){
             toptext={meme.toptext}
             bottomtext={meme.bottomtext}
              />
-            <div className='imgbutton'>
+             <div className='imgbutton'>
                 <button className='mybutton' onClick={changememe}>Generate A New Image</button>
-            </div>
+             </div>
             <div className='memeimge'>
-            <img className='mymemeimg' src={meme.imgscr} />
-            <h1 className='meme-text top' >{meme.toptext}</h1>
-            <h1 className='meme-text bottom' >{meme.bottomtext}</h1>
+                <img className='mymemeimg' src={meme.imgscr} />
+                <h1 className='meme--text top' > {meme.toptext}</h1>
+                <h1 className='meme--text bottom' >{meme.bottomtext}</h1>
             </div>
         </div>
     )

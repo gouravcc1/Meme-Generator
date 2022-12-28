@@ -1,10 +1,16 @@
 .Appp{
-    width: 800px;
+    width: 50%;
     /* border-radius: 26px; */
     border: 5px solid black;
 }
 .App{
     display: flex;
     justify-content: center;
-   
+}
+@media screen and (max-width:600px){
+    .Appp{
+        width: 100%;
+        /* border-radius: 26px; */
+        /* border: 5px solid black; */
+    }
 }
